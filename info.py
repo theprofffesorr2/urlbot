@@ -77,8 +77,8 @@ URL_MODE = is_enabled((environ.get("URL_MODE")), True)
 # Use True false in url mode => Set value true if you want shortlinks - else - use value False ----- !
 
 # URL Shortener
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'api.shareus.in/shortLink')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'I3Khu0fwfbWpd1W2ofcyP2znDA12')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'omegalinks.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'adc62f3afa0c54b05ed456508eb7fe2e4857c268')
 
 # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 180))
@@ -88,11 +88,11 @@ if SELF_DELETE == "True":
 
 # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/LazyDeveloper"
+DOWNLOAD_TEXT_URL = "https://t.me/Theprofffesorr"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/LazyDeveloper"
+CAPTION_BUTTON_URL = "https://t.me/Theprofffesorr"
 
 # _______________________________________________________________________________________________________________ #
 # __________________________________________Credit_______________________________________________________________ #
