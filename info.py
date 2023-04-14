@@ -77,18 +77,18 @@ URL_MODE = is_enabled((environ.get("URL_MODE")), True)
 # Use True false in url mode => Set value true if you want shortlinks - else - use value False ----- !
 
 # URL Shortener
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'clicksfly.com')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'adc62f3afa0c54b05ed456508eb7fe2e4857c268')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shorturllink.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '44d54b75f2dc4bd329c608679cd6396ef5ca08d7')
 
 # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 180))
-SELF_DELETE = environ.get('SELF_DELETE', True)
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 86400))
+SELF_DELETE = environ.get('SELF_DELETE', False)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 
 # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/Theprofffesorr"
+DOWNLOAD_TEXT_URL = "https://t.me/howtomovie/2"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
